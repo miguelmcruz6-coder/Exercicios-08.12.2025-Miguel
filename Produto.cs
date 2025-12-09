@@ -52,7 +52,7 @@ namespace Aula_08._12._2025
 
         public double ValorTotal()
         {
-            return (QuantidadeAtual - QuantidadeVendida) * Preco;
+            return QuantidadeVendida * Preco;
         }
 
         public void ResumoDia()
