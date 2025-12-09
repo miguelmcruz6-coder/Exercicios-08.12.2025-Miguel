@@ -1,0 +1,14 @@
+C:\Users\486584624\Documents\Aula-08.12.2025\bin\Debug\net8.0\Aula-08.12.2025.exe
+C:\Users\486584624\Documents\Aula-08.12.2025\bin\Debug\net8.0\Aula-08.12.2025.deps.json
+C:\Users\486584624\Documents\Aula-08.12.2025\bin\Debug\net8.0\Aula-08.12.2025.runtimeconfig.json
+C:\Users\486584624\Documents\Aula-08.12.2025\bin\Debug\net8.0\Aula-08.12.2025.dll
+C:\Users\486584624\Documents\Aula-08.12.2025\bin\Debug\net8.0\Aula-08.12.2025.pdb
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.AssemblyInfoInputs.cache
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.AssemblyInfo.cs
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.csproj.CoreCompileInputs.cache
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.dll
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\refint\Aula-08.12.2025.dll
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.pdb
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\Aula-08.12.2025.genruntimeconfig.cache
+C:\Users\486584624\Documents\Aula-08.12.2025\obj\Debug\net8.0\ref\Aula-08.12.2025.dll
