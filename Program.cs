@@ -66,11 +66,11 @@ while (ativo)
             }
             else
             {
-                Console.Write("\nDigite o nome do produto que deseja retirar: ");
+                Console.Write("\nDigite o nome do produto que foi vendido: ");
                 string escolha2 = Console.ReadLine()!;
-                Console.Write($"\nDigite quantos produtos foram retirados: ");
-                int adicionar2 = int.Parse(Console.ReadLine()!);
-                list.ForEach(p => p.Retirar(escolha2, adicionar2));
+                Console.Write($"\nDigite quantos daquele produto foram vendidos: ");
+                int vendidos = int.Parse(Console.ReadLine()!);
+                list.ForEach(p => p.Retirar(escolha2, vendidos));
             }
             break;
 
