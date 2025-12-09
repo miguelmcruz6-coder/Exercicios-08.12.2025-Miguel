@@ -18,7 +18,7 @@ Classes classes = new Classes();
 List<Produto> list = new List<Produto>();
 
 bool ativo = true;
-double valorTotalEstoque = 0;
+double valorTotalVendido = 0;
 Console.WriteLine("\nBom dia, bem vindo ao sistem LOJINHA");
 
 while (ativo)
@@ -99,8 +99,8 @@ while (ativo)
                 Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------------------");
                 list.ForEach(p => p.ResumoDia());
-                valorTotalEstoque = list.Sum(p => p.ValorTotal());
-                Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalEstoque}\n");
+                valorTotalVendido = list.Sum(p => p.ValorTotal());
+                Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalVendido}\n");
             }
             break;
 
@@ -119,8 +119,8 @@ while (ativo)
                     Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------------------");
                     Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------------------");
                     list.ForEach(p => p.ResumoDia());
-                    valorTotalEstoque = list.Sum(p => p.ValorTotal());
-                    Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalEstoque}\n");
+                    valorTotalVendido = list.Sum(p => p.ValorTotal());
+                    Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalVendido}\n");
                 }
                 Console.WriteLine("\nAté mais, esperamos que tenha gostado do nosso protótipo de programa para lojas.\n");
             }
