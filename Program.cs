@@ -8,7 +8,6 @@ Classes classes = new Classes();
 
 // Console.WriteLine("Digite algo");
 // string algo = Console.ReadLine()!;
-
 // classes.Cumprimentar(algo);
 
 
@@ -26,7 +25,7 @@ while (ativo)
     Console.WriteLine("\nDigite o número da opção que deseja");
     Console.WriteLine("1 - Cadastrar produto");
     Console.WriteLine("2 - Adicionar estoque");
-    Console.WriteLine("3 - Retirar estoque");
+    Console.WriteLine("3 - Venda de estoque");
     Console.WriteLine("4 - Mostrar produtos");
     Console.WriteLine("5 - Resumo do dia");
     Console.WriteLine("6 - Sair");
@@ -100,7 +99,15 @@ while (ativo)
                 Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------------------");
                 list.ForEach(p => p.ResumoDia());
                 valorTotalVendido = list.Sum(p => p.ValorTotal());
-                Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalVendido}\n");
+                Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n");
+                if (valorTotalVendido == 0)
+                {
+                    Console.WriteLine($"\nNão houve vendas\n");
+                }
+                else
+                {
+                    Console.WriteLine($"\nO valor total vendido é = R${valorTotalVendido}\n");
+                }
             }
             break;
 
@@ -120,7 +127,15 @@ while (ativo)
                     Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------------------");
                     list.ForEach(p => p.ResumoDia());
                     valorTotalVendido = list.Sum(p => p.ValorTotal());
-                    Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalVendido}\n");
+                    Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n");
+                    if (valorTotalVendido == 0)
+                    {
+                        Console.WriteLine($"\nNão houve vendas\n");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"\nO valor total vendido é = R${valorTotalVendido}\n");
+                    }
                 }
                 Console.WriteLine("\nAté mais, esperamos que tenha gostado do nosso protótipo de programa para lojas.\n");
             }
