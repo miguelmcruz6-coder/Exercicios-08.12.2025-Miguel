@@ -96,8 +96,8 @@ while (ativo)
             }
             else
             {
-                Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos");
-                Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas");
+                Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------");
+                Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------");
                 list.ForEach(p => p.ResumoDia());
                 valorTotalEstoque = list.Sum(p => p.ValorTotal());
                 Console.WriteLine($"\nO valor total vendido é = R${valorTotalEstoque}\n");
@@ -116,8 +116,8 @@ while (ativo)
                 string escolha3 = Console.ReadLine()!;
                 if (escolha3 == "sim")
                 {
-                    Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos");
-                    Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas");
+                    Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------");
                     list.ForEach(p => p.ResumoDia());
                     valorTotalEstoque = list.Sum(p => p.ValorTotal());
                     Console.WriteLine($"\nO valor total vendido é = R${valorTotalEstoque}\n");
