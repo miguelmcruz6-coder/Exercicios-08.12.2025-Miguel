@@ -1,4 +1,4 @@
-﻿// Exercício rápido
+// Exercício rápido
 
 
 using Aula_08._12._2025;
@@ -96,11 +96,11 @@ while (ativo)
             }
             else
             {
-                Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------");
-                Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------");
+                Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------------------");
+                Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------------------");
                 list.ForEach(p => p.ResumoDia());
                 valorTotalEstoque = list.Sum(p => p.ValorTotal());
-                Console.WriteLine($"\nO valor total vendido é = R${valorTotalEstoque}\n");
+                Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalEstoque}\n");
             }
             break;
 
@@ -116,11 +116,11 @@ while (ativo)
                 string escolha3 = Console.ReadLine()!;
                 if (escolha3 == "sim")
                 {
-                    Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------");
-                    Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("\n\t\t\t\t\t Tabela dos Produtos\n---------------------------------------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("Nome\t\tPreço\t\tQuantidade no Início do Dia\tQuantidade Vendida\tQuantidade em Estoque\tValor total das vendas\n---------------------------------------------------------------------------------------------------------------------------------------");
                     list.ForEach(p => p.ResumoDia());
                     valorTotalEstoque = list.Sum(p => p.ValorTotal());
-                    Console.WriteLine($"\nO valor total vendido é = R${valorTotalEstoque}\n");
+                    Console.WriteLine($"---------------------------------------------------------------------------------------------------------------------------------------\n\nO valor total vendido é = R${valorTotalEstoque}\n");
                 }
                 Console.WriteLine("\nAté mais, esperamos que tenha gostado do nosso protótipo de programa para lojas.\n");
             }
