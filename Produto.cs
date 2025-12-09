@@ -47,7 +47,7 @@ namespace Aula_08._12._2025
         public void ApresentarProduto()
         {
             QuantidadeAtual -= QuantidadeVendida;
-            Console.WriteLine($"{Nome}\t\tR${Preco}\t\t{QuantidadeAtual}") ;
+            Console.WriteLine($"{Nome}\t\tR${Preco}\t\t{QuantidadeAtual}");
         }
 
         public double ValorTotal()
